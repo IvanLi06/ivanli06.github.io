@@ -10,13 +10,13 @@ export default function Hero() {
           I design, build, and ship full-stack experiences.
         </h1>
 
-        <p className="mt-4 max-w-3xl text-xl leading-snug tracking-tight text-neutral-500 sm:text-2xl">
+        <p className="text-[20px] mt-4 max-w-3xl text-xl leading-snug tracking-tight text-neutral-500 sm:text-2xl">
           From database to deploy, I turn ideas into usable products with clean
           code, thoughtful UX, and reliable systems.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-4">
-          <button className="inline-flex items-center rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-neutral-900">
+          <button className="text-[20px] inline-flex items-center rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-neutral-900">
             View my work <span className="ml-1 text-base">↗</span>
           </button>
           <span className="text-sm text-neutral-500">

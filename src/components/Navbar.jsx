@@ -2,13 +2,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-neutral-100">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        {/* Logo / brand */}
-        <div className="text-[22px] font-semibold tracking-tight">
+        {/* Name */}
+        <div className="text-[16px] font-semibold tracking-tight">
           Ivan&nbsp;Li <span className="font-normal">[李孝蕤]</span>
         </div>
 
         {/* Navigation */}
-        <nav className="hidden gap-8 text-sm text-neutral-700 md:flex">
+        <nav className="text-[16px] hidden gap-8 text-sm text-neutral-700 md:flex">
           <a href="#work" className="hover:text-black">
             Work
           </a>
@@ -23,9 +23,9 @@ export default function Navbar() {
           </a>
         </nav>
 
-        {/* CTA button */}
-        <button className="rounded-full bg-black px-4 py-2 text-xs font-medium text-white hover:bg-neutral-900">
-          View&nbsp;Résumé
+        {/* Resume button */}
+        <button className="text-[16px] rounded-full bg-black px-4 py-2 text-xs font-medium text-white hover:bg-neutral-900">
+          View&nbsp;Resume
         </button>
       </div>
     </header>
